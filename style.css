@@ -1,0 +1,27 @@
+#container{
+    background-color: white;
+    display: grid;
+    width: 750px;
+    height: 750px;
+    grid-gap: 2px;
+    margin: 20px auto;
+}
+.cell{
+    border: 1px solid black;
+    padding: 2px;
+}
+.cell:hover{
+    color: black;
+}
+.cell.hovered{
+    background-color: black;
+}
+#heading{
+    text-align: center;
+}
+button{
+    display: inline;
+}
+body{
+    background-image: linear-gradient(to right, rgb(209, 130, 183), rgb(245, 231, 240));
+}
