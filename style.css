@@ -10,11 +10,11 @@
     border: 1px solid black;
     padding: 2px;
 }
-.cell:hover{
-    color: black;
-}
 .cell.hovered{
     background-color: black;
+}
+.cell.notHovered{
+    transition: 0.3s ease-out;
 }
 #heading{
     text-align: center;
