@@ -1,3 +1,7 @@
+body{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
 #container{
     background-color: white;
     display: grid;
@@ -5,23 +9,31 @@
     height: 750px;
     grid-gap: 2px;
     margin: 20px auto;
+    border: 13px solid white;
+    border-radius: 3%;
 }
 .cell{
     border: 1px solid black;
+    border-radius: 5%;
     padding: 2px;
-}
-.cell.hovered{
-    background-color: black;
 }
 .cell.notHovered{
     transition: 0.3s ease-out;
+    background-color: white !important;
 }
 #heading{
     text-align: center;
 }
 button{
     display: inline;
+    background-color: rgb(190, 34, 34);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+button:active{
+    background-color: white;
+    color: rgb(190, 34, 34);
 }
 body{
-    background-image: linear-gradient(to right, rgb(209, 130, 183), rgb(245, 231, 240));
+    background-image: linear-gradient(to right, rgb(148, 146, 147), rgb(255, 255, 255));
 }
